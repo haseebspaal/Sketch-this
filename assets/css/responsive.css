@@ -1,0 +1,200 @@
+@media screen and (max-width : 1594px) {
+    
+    .hero-text h1{
+        font-size: 39px;
+    }
+   
+}
+@media screen and (max-width : 1194px) {
+  
+    .step-indicator div::after {
+        width: 150px;
+    }
+}
+@media screen and (max-width : 991px) {
+    .title{
+        padding-top: 100px;
+    }
+    .blog-neeche{
+        margin-bottom: 0;
+    }
+    .blog-text h2{
+        max-width: 86%;
+        margin: 10px 0;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .hero-img-about img{
+      display: none;
+    }
+    .input button{
+        position: absolute;
+        right: 17%;
+        bottom: 3px;
+        padding: 8px 12px !important;
+        height: 45px;
+        font-size: 12px;
+        width: 150px;
+    }
+    nav{
+        position: absolute !important;
+        top: 0px ;
+        width: 100%;
+        z-index: 87;
+    }
+    nav ul .nav-item{
+        display: block;
+        margin: 0 auto;
+        text-align: center !important;
+        margin: 10px 0;
+    }
+    .hero-section{
+        padding-top: 150px !important;
+    }
+    .login-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .nav-item{
+        margin: 20px 0;
+    }
+    .active::after{
+        display: none;
+    }
+    .nav-link:hover::after{
+        content: '';
+        position: absolute;
+        bottom: 3px;
+        left: 44%;
+        width: 24px;
+        height: 1.7px;
+        font-weight: 550;
+        background-color: #111;
+    }
+    .hero-text{
+        margin-bottom: 30px;
+    }
+    .hero-img img{
+        width: 450px;
+        display: none;
+    }
+    .hero-img::after{
+        display: none;
+        
+    }
+    .hero-text h1{
+        font-family: dm serif;
+        font-size: 58px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+    .step-indicator div::after {
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .change-look{
+        width: 100%;
+        padding: 50px 0 120px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .hero-section-2 .hero-text h1{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .hero-section-2 .hero-text li{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .hero-section .hero-text h1 img{
+        width: 50px;
+    }
+    .change-look h2, .wcu-card h3,.value .section-title h2, .about-theme-titles h2, .who-we-are h2{
+        font-size: 26px;
+    }
+    
+    .change-look p, .section-title p,.value .section-title p, .about-theme-titles p{
+        font-size: 12px;
+    }
+    .who-img-div{
+        display: none;
+    }
+    .input button{
+        position: absolute;
+        right: 17%;
+        bottom: 3px;
+        padding: 8px 12px !important;
+        height: 45px;
+        font-size: 12px;
+        width: 150px;
+    }
+    .hero-text h1{
+        font-family: dm serif;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .hero-img img{
+        width: 450px;
+        display: none;
+    }
+    .hero-img::after{
+        display: none;
+        
+    }
+    .step-indicator div::after {
+        width: 50px;
+    }
+    
+}
+@media screen and (max-width:568px) {
+    section .font-heading{
+        font-size: 26px !important;
+    }
+    p, footer li{
+        font-size: 12px;
+    }
+    .input button{
+        position: absolute;
+        right: 1%;
+        bottom: 3px;
+        padding: 8px 12px !important;
+        height: 45px;
+        font-size: 12px;
+        width: 150px;
+    }
+    .slick-next{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+       
+    }
+    .slick-prev{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 8;
+    }
+    .step-indicator div::after {
+        width: 50px;
+    }
+    .hero-text h1{
+        font-family: dm serif;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .hero-img img{
+        width: 450px;
+        display: none;
+    }
+    .hero-img::after{
+        display: none;
+        
+    }
+    
+}
